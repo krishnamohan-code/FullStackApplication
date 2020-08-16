@@ -1,0 +1,7 @@
+com\dao\BookRepository.class
+com\model\Book.class
+com\controller\BookController.class
+com\dao\UserRepository.class
+com\controller\UserController.class
+com\model\User.class
+com\applicationcontroller\EcommerceApplication.class
