@@ -36,4 +36,7 @@ export class BooksComponent implements OnInit {
     this.selectedBook=new Book();
     this.router.navigate(['admin','books'],{queryParams:{action:'add'}})
   }
+  setBook(id: number) {
+    this.router.navigate(['admin', 'books'], { queryParams: { id, action: 'view' } });
+  }
 }

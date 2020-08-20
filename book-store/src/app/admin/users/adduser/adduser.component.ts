@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output } from '@angular/core';
-import { User } from 'src/app/model/User';
-import { HttpClientService } from 'src/app/service/http-client.service.component';
+import { User } from '../../../model/User';
+import { HttpClientService } from '../../../service/http-client.service.component';
 import { Router } from '@angular/router';
 import {EventEmitter} from '@angular/core';
 @Component({
@@ -11,7 +11,7 @@ import {EventEmitter} from '@angular/core';
 export class AdduserComponent implements OnInit {
 
 @Input()
-user:User
+user:User;
 
 @Output()
 userAddEvent = new EventEmitter();
